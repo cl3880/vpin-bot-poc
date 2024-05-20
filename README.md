@@ -69,4 +69,4 @@ This project is licensed under a custom license. See the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any inquiries or access requests, please contact chrisleu9@gmail.com.
+For any inquiries or access requests, please contact cl3880@nyu.edu.
