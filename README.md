@@ -1,2 +1,72 @@
-# vpin-bot-poc
-Java-based microservice POC for Vpin, integrating OpenAI and YouTube APIs for content generation and recommendation, built with Spring Boot and Neo4j. This repository contains snippets of the POC.
+# Vpin Bot - Proof of Concept (POC)
+
+This repository contains selected files from a Java-based microservice developed as a proof of concept for Vpin, an AI-powered multimedia collection, organization, and sharing platform. The project demonstrates the implementation of content generation and recommendation features using OpenAI and YouTube APIs, built with Spring Boot and Neo4j. 
+
+These files are part of a larger proof-of-concept project, and some files have been modified to remove sensitive information. This repository is not intended to be a fully compilable project but rather a showcase of my work during my time at OSparks AMG Inc.
+
+## Overview
+
+This project showcases the integration of various technologies and services, including:
+- **RESTful APIs**: Developed APIs using Spring Boot to handle bot operations and user interactions.
+- **Integration**: Integrated OpenAI for content generation and YouTube APIs for multimedia procurement.
+- **Core Services**: Implemented core services following MVC architecture and OOP principles.
+- **Command Patterns**: Utilized command patterns for modular and streamlined bot creation and recommendation behaviors.
+- **Database Design and Implementation**: Designed and implemented the initial database schema, including the determination of nodes, relationships, interactions to track, and more.
+
+## Key Files and Their Roles
+
+### Behavior
+- **BrowseVpinBehavior.java**: Implements the behavior for browsing Vpins.
+
+### Command
+- **BotCommand.java**: Base class for bot commands.
+- **CommentVpinCommand.java**: Command for commenting on a Vpin.
+- **CreateVpinCommand.java**: Command for creating a Vpin.
+- **LikeCommand.java**: Command for liking a Vpin.
+- **ReplyCommentCommand.java**: Command for replying to a comment.
+
+### Controller
+- **BotController.java**: Handles bot-related operations.
+- **VpinController.java**: Manages operations related to Vpins.
+
+### DTO (Data Transfer Objects)
+- **BotDashFormData.java**: DTO for bot dashboard form data.
+- **CreateVpinRequest.java**: DTO for creating a Vpin request.
+- **VpinCreationResponse.java**: DTO for Vpin creation response.
+
+### Model
+- **BotFunction.java**: Represents a function of a bot.
+- **BotModel.java**: Represents the bot entity.
+- **CommentModel.java**: Represents a comment entity.
+- **RepliedToRelationship.java**: Represents the relationship of a bot replying to a comment.
+- **TagModel.java**: Represents a tag.
+- **VpinModel.java**: Represents a Vpin entity.
+
+### Repository
+- **BotRepository.java**: Repository for bot entities.
+- **VpinRepository.java**: Repository for Vpin entities.
+
+### Service
+- **BotActionExecutor.java**: Executes bot actions.
+- **BotCommandService.java**: Manages bot commands.
+- **BotCreateService.java**: Handles bot creation.
+- **BotSchedulerService.java**: Schedules bot actions.
+- **OpenAIService.java**: Integrates with OpenAI for content generation.
+- **RemoteExchangeService.java**: Manages remote data exchanges.
+- **VpinAuthenticationService.java**: Handles authentication for Vpins.
+- **VpinService.java**: Manages Vpin-related operations.
+
+### Other
+- **VpinBotApplication.java**: Main application class.
+- **pom.xml**: Maven project configuration file.
+- **.gitignore**: Git ignore file to exclude certain files from the repository.
+- **LICENSE**: License file for the project.
+- **README.md**: Project documentation.
+
+## License
+
+This project is licensed under a custom license. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or access requests, please contact chrisleu9@gmail.com.
