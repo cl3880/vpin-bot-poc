@@ -1,11 +1,15 @@
-# Vpin Bot - Proof of Concept (POC)
+# Vpin Automated Content System
 
-This repository contains selected files from a Java-based microservice developed as a proof of concept for Vpin, an AI-powered multimedia collection, organization, and sharing platform. The project demonstrates the implementation of content generation and recommendation features using OpenAI and YouTube APIs, built with Spring Boot and Neo4j. 
+This repository contains selected files from a Java-based microservice developed as a proof of concept (POC) for Vpin, an AI-powered multimedia collection, organization, and sharing platform.
 
 These files are part of a larger proof-of-concept project, and some files have been modified to remove sensitive information. This repository is not intended to be a fully compilable project but rather a showcase of my work during my time at OSparks AMG Inc.
 
 ## Overview
 
+### Initial Proof of Concept
+The initial proof of concept (POC) involved generating bots with diverse characteristics and interests using OpenAI. These bots interacted with and posted content, simulating various user behaviors based on randomly generated profiles. This POC could have been used for load testing or other purposes. The project later shifted focus to developing an automated system to curate and post content at scheduled times.
+
+### Features
 This project showcases the integration of various technologies and services, including:
 - **RESTful APIs**: Developed APIs using Spring Boot to handle bot operations and user interactions.
 - **Integration**: Integrated OpenAI for content generation and YouTube APIs for multimedia procurement.
