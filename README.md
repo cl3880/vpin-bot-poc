@@ -7,7 +7,7 @@ These files are part of a larger proof-of-concept project, and some files have b
 ## Overview
 
 ### Initial Proof of Concept
-The initial proof of concept (POC) involved generating bots with diverse characteristics and interests using OpenAI. These bots interacted with and posted content, simulating various user behaviors based on randomly generated profiles. This POC could have been used for load testing or other purposes. The project later shifted focus to developing an automated system to curate and post content at scheduled times.
+The initial proof of concept (POC) involved generating bots with diverse characteristics and interests using OpenAI. These bots interacted with and posted content, simulating various user behaviors based on randomly generated profiles. This POC could have been used for load testing or to generate and increase data for developing ontology and recommendation systems. The project later shifted focus to developing an automated system to curate and post content at scheduled times.
 
 ### Features
 This project showcases the integration of various technologies and services, including:
