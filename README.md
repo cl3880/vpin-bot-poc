@@ -1,4 +1,4 @@
-# Vpin Automated Content System
+# Vpin Automated Content Curation System
 
 This repository contains selected files from a Java-based microservice developed as a proof of concept (POC) for Vpin, an AI-powered multimedia collection, organization, and sharing platform.
 
